@@ -1,0 +1,155 @@
+/* Mobile */
+@media screen and (min-width: 480px) {
+    .name {
+        position: relative;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 2rem;
+        max-width: 60rem;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        color: #383B53;
+    }
+
+    .proficient {
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .proficient ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        row-gap: .5rem;
+        max-width: 40rem;
+    }
+
+    .experience {
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        max-width: 60rem;
+        min-width: 20rem;
+    }
+
+    .exp-section {
+        margin-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .exp-section span {
+        display: flex;
+        justify-content: flex-end;
+        font-size: .9rem;
+        padding-right: 1rem;
+        color: #66717E;
+    }
+
+    .education {
+        padding-left: 1rem;
+    }
+
+    .edu-section {
+        margin-bottom: 1.2rem;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 960px) {
+    /* .navigation {
+        display: flex;
+        flex-direction: row;
+        min-width: 10rem;
+        max-width: 70rem;
+        margin-top: -7.5rem;
+        margin-right: 1rem;
+    }
+
+    .link {
+        margin-right: -5rem;
+        min-width: 20rem;
+    }
+
+    .pick {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    } */
+
+    .top-body.navigation {
+        padding-right: 5rem;
+    }
+
+    .name {
+        max-width: 100rem;
+        padding: 2rem 5rem;
+        margin: 0 auto;
+    }
+
+    .name h1 {
+        font-size: 2rem;
+    }
+
+    .proficient {
+        display: grid;
+        grid-template-rows: 6fr;
+        padding-bottom: 5rem;
+        text-align: right;
+        padding-right: 5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .proficient ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: end;
+        max-width: 100%;
+        color: #898988;
+    }
+
+    .experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -17rem 4rem;
+        padding-right: 15rem;
+        max-width: 80rem;
+        min-width: 50rem;
+        font-size: 1.5rem;
+    }
+
+    .exp-section {
+        margin-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .education {
+        display: grid;
+        grid-template-rows: 6fr;
+        padding-bottom: 5rem;
+        text-align: right;
+        padding-right: 5rem;
+        justify-content: right;
+        margin-top: -24rem;
+    }
+
+    .edu-section {
+        padding-left: 50rem;
+        max-width: 60rem;
+        color: #898988;
+
+    }
+
+    .education h3 {
+        margin-bottom: 0.5rem;
+
+    }
+}
